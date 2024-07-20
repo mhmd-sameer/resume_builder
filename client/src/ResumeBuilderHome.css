@@ -1,0 +1,108 @@
+body {
+  font-family: "Times New Roman", Times, serif, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.resume-builder-page {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header .animated-text {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: bold;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Container for main content with white background */
+.main-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 300px; /* Adjust height as needed */
+  width: 1000px; /* Fixed width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+
+
+/* Main content styling */
+.main-content {
+  color: #000; /* Change this to black or another color for readability */
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.resume-image {
+  width: 100%; /* Ensures the image takes up the full width of its container */
+  height: 100%; /* Set height as a percentage of the container's height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.resume-image:hover {
+  transform: scale(1.1);
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.btn-build {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  color: #a259ff; /* Text color for button */
+  font-weight: bold;
+  border-radius: 20px;
+  border-color: #282c34;
+}
+
+.btn-build:hover {
+  background-color: #21a1f1;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+  0% { transform: translateX(-50px); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}

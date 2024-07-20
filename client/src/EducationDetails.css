@@ -1,0 +1,109 @@
+/* EducationDetails.module.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.education-details-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a259ff;
+}
+
+.education-details-form-left,
+.education-details-form-right {
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.education-details-form-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-details-form-left h1 {
+  margin-bottom: 20px;
+}
+
+.education-details-form-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.education-details-form-left p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.education-details-form-right {
+  background-color: #a259ff;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-details-form-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.education-details-form-group {
+  margin-bottom: 15px;
+}
+
+.education-details-form-group input,
+.education-details-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.education-details-form-group input {
+  height: 40px;
+}
+
+.education-details-form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.education-details-btn-submit {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #a259ff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.education-details-btn-submit:hover {
+  background-color: #e0d4ff;
+}
+
+.btn-previous {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #a259ff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn-previous:hover {
+  background-color: #e0d4ff;
+}
