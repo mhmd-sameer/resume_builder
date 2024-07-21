@@ -26,7 +26,7 @@ const WorkExperience = () => {
   };
 
   const handlePrevious = () => {
-    navigate('/PersonalDetails'); // Navigate to the previous page
+    navigate('/ExperienceVerify'); // Navigate to the previous page
   };
 
   return (
@@ -92,9 +92,9 @@ const WorkExperience = () => {
               required
             />
           </div>
-          <div className="form-buttons">
-            <button type="button" className="btn-previous" onClick={handlePrevious}>Previous</button>
-            <button type="submit" className="technical-skills-btn-submit">Next</button>
+          <div className="work-experience-form-buttons">
+            <button type="button" className="work-experience-btn-previous" onClick={handlePrevious}>Previous</button>
+            <button type="submit" className="work-experience-btn-submit">Next</button>
           </div>
         </form>
       </div>

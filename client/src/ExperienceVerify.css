@@ -1,93 +1,107 @@
 /* ExperienceVerify.css */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .experience-verify-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #a259ff;
-  }
-  
-  .experience-verify-left,
-  .experience-verification-right {
-    width: 40%;
-    padding: 20px;
-    box-sizing: border-box;
-  }
-  
-  .experience-verify-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .experience-verify-left h1 {
-    margin-bottom: 20px;
-  }
-  
-  .experience-verify-left p {
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-  .experience-verify-right {
-    background-color: #a259ff;
-    border-radius: 0 10px 10px 0;
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .experience-verify-right form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .experience-verify-group {
-    margin-bottom: 15px;
-  }
-  
-  .experience-verify-group input[type="radio"] {
-    margin-right: 10px;
-  }
-  
-  .experience-verify-group input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .experience-verify-error {
-    color: red;
-    margin-bottom: 15px;
-  }
-  
-  .form-buttons {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .btn-submit {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #a259ff;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .btn-submit:hover {
-    background-color: #e0d4ff;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.experience-verification-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a259ff;
+}
+
+.experience-verification-left,
+.experience-verification-right {
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.experience-verification-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-verification-left h1 {
+  margin-bottom: 20px;
+}
+
+.experience-verification-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.experience-verification-left p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.experience-verification-right {
+  background-color: #a259ff;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+
+.experience-verification-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Added for form width consistency */
+}
+
+.experience-verification-group {
+  margin-bottom: 15px;
+}
+
+.experience-verification-group input[type="number"],
+.experience-verification-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+.experience-verification-group input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.experience-verification-error {
+  color: #ffcccc;
+  background-color: #ff6666;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.experience-verification-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.experience-verification-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #a259ff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.experience-verification-submit:hover {
+  background-color: #e0d4ff;
+}

@@ -1,0 +1,140 @@
+/* Projects.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .projects-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #a259ff;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .projects-form-left,
+  .projects-form-right {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .projects-form-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projects-form-left h1 {
+    margin-bottom: 20px;
+  }
+  
+  .projects-form-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .projects-form-left p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .projects-form-right {
+    background-color: #a259ff;
+    border-radius: 0 10px 10px 0;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80vh; /* Adjust based on your design */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .projects-form-scrollable {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 60vh; /* Adjust based on your design */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .projects-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .projects-form-group input,
+  .projects-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .projects-form-group input {
+    height: 40px;
+  }
+  
+  .projects-form-group textarea {
+    height: 100px;
+    resize: none;
+    margin-top: 10px;
+  }
+  
+  .btn-remove-project {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn-remove-project:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .btn-add-project {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #a259ff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .btn-add-project:hover {
+    background-color: #e0d4ff;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-previous,
+  .btn-submit {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #a259ff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-previous:hover,
+  .btn-submit:hover {
+    background-color: #e0d4ff;
+  }
+  

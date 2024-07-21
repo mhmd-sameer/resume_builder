@@ -1,94 +1,105 @@
-/* WorkExperience.module.css */
+/* WorkExperience.css */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .work-experience-form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #a259ff;
-  }
-  
-  .work-experience-form-left {
-    width: 40%;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border-radius: 10px 0 0 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .work-experience-form-left h1 {
-    margin-bottom: 20px;
-  }
-  
-  .work-experience-form-image {
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
-  
-  .work-experience-form-left p {
-    text-align: center;
-    margin: 10px 0;
-  }
-  
-  .work-experience-form-right {
-    width: 40%;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #a259ff;
-    border-radius: 0 10px 10px 0;
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .work-experience-form-right form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .work-experience-form-group {
-    margin-bottom: 15px;
-  }
-  
-  .work-experience-form-group input,
-  .work-experience-form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .work-experience-form-group input {
-    height: 40px;
-  }
-  
-  .work-experience-form-group textarea {
-    height: 100px;
-    resize: none;
-  }
-  
-  .work-experience-btn-submit {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #a259ff;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  .work-experience-btn-submit:hover {
-    background-color: #e0d4ff;
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.work-experience-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #a259ff;
+}
+
+.work-experience-form-left,
+.work-experience-form-right {
+  width: 40%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.work-experience-form-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience-form-left h1 {
+  margin-bottom: 20px;
+}
+
+.work-experience-form-image {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.work-experience-form-left p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.work-experience-form-right {
+  background-color: #a259ff;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+}
+
+.work-experience-form-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Added for form width consistency */
+}
+
+.work-experience-form-group {
+  margin-bottom: 15px;
+}
+
+.work-experience-form-group input,
+.work-experience-form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.work-experience-form-group input {
+  height: 40px;
+}
+
+.work-experience-form-group textarea {
+  height: 100px;
+  resize: none;
+}
+
+.work-experience-form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-experience-btn-previous,
+.work-experience-btn-submit {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #a259ff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.work-experience-btn-previous:hover,
+.work-experience-btn-submit:hover {
+  background-color: #e0d4ff;
+}
